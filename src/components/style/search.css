@@ -1,0 +1,17 @@
+.inputbox {
+    width: 50%;
+    background-color: gray;
+    outline: none;
+    border-radius: 8%;
+}
+.box {
+    padding-top: 50px;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+        font-size: large;
+        padding-top: 50px;
+    }
+}
